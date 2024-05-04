@@ -8,10 +8,7 @@ function Greeting() {
     <div>
       {/* isLoggedIn 값에 따라 다른 UI를 렌더링 */}
       {isLoggedIn ? (
-        <h1>Welcome back!</h1>
-      ) : (
-        <h1>Please sign up.</h1>
-      )}
+        <h1>Welcome back!</h1>) : (<h1>Please sign up.</h1>)}
     </div>
   );
 }
