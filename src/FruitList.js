@@ -2,11 +2,11 @@ import React from 'react';
 
 function FruitList() {
   // 배열 데이터
-  const fruits = ["awf", 'Apple', 'Banana', 'Orange', 'Mango'];
+  const fruits = ['사과 - 1000원', '바나나 - 1500원', '오렌지 - 2000원', '포도 - 2500원'];
 
   return (
     <div>
-      <h1>Fruit List</h1>
+      <h1>상품 목록</h1>
       {/* 배열 요소를 매핑하여 리스트 생성 */}
       <ul>
         {fruits.map((fruit, index) => {
